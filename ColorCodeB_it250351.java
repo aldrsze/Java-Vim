@@ -10,6 +10,8 @@ public class ColorCodeB_it250351{
 		
 		char Ohms = '\u2126';
 		
+		String[] colors = {"Black", "Brown", "Red", "Orange", "Yellow", "Green", "Blue", "Violet", "Gray", "White", "Gold", "Silver", "No Color"};
+
 		System.out.println("--------------------------");
 		c1 = Integer.parseInt(con.readLine("Enter 1st Number: "));
 		c2 = Integer.parseInt(con.readLine("Enter 2nd Number: "));
@@ -21,7 +23,7 @@ public class ColorCodeB_it250351{
 		resistance = base * Math.pow(10, c3);
 
 		System.out.println("--------------------------");
-
+		System.out.println("COLORS: " + colors[c1] + ", " + colors[c2] + ", " + colors[c3] + ", " + colors[c4]);
 		System.out.printf("Resistance: %,.2f %c%n", resistance, Ohms);
 
 		if (c4 == 10){tolerance = 0.05;}
