@@ -1,6 +1,6 @@
 import java.io.Console;
 //FIND GCD (Greatest Common Divisor of 2 number)
-public class FindGCD{
+public class findGCD{
 	public static void main(String[] args){
 		Console con = System.console();
 			

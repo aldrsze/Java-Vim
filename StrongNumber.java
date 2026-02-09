@@ -2,7 +2,7 @@ import java.io.Console;
 
 
 // CHECKS IF THE SUM OF THE FACTORIAL OF ITS DIGITS EQUALS THE GIVEN NUMBER
-public class StrongNumber1 {
+public class StrongNumber {
     public static void main(String[] args) {
         Console con = System.console();        
 
